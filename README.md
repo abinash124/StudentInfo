@@ -1,4 +1,4 @@
-#Student Account information portal using React Redux Firebase
+# Student Account information portal using React Redux Firebase
 ## Available Scripts
 
 In the project directory, you can run:
