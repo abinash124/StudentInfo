@@ -40,7 +40,7 @@ class Students extends Component {
                                 <td>{student.firstName} {student.lastName}</td>
                                 <td>{student.email}</td>
                                 <td>{student.phone}</td>
-                                <td>{student.tuition}</td>
+                                <td>${parseFloat(student.tuition).toFixed(2)}</td>
                                 <td>
                                     <Link to={`/student/${student.id}`} className="btn btn-secondary btn-sm">
                                         <i className="fas fa-info-circle"></i> Details
